@@ -5,6 +5,6 @@ function handleInput() {
     if (textInput.value === "") {
         textOutput.textContent = "Anonymous";
     }
-    textOutput.textContent = textInput.value;
+    else textOutput.textContent = textInput.value;
 }
   
